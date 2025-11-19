@@ -1,10 +1,12 @@
 # CW_beacon_ESP32_Adafruit
 
-ESP32 + Si5351 CW beacon
+ESP32 + Si5351 CW beacon 
+
 
 This program allows you to generate a CW (Morse) beacon in the amateur radio bands from 8 kHz to 150 MHz 
 (Tested between 471kHz and 28 MHz with Adafruir  Si5351 library) using an ESP32 (Lilygo TTGO T-Display) 
-and a Si5351 with a power of 7 dB and Etherkit library https://github.com/etherkit/Si5351Arduino
+and a Si5351 (https://ea5jtt.blogspot.com/2025/09/si5351-primeros-pasos.html )with a power of 7 dB and 
+Adafruir  Si5351 library https://github.com/adafruit/Adafruit_Si5351_Library
 
 There's no need calibrate you si5351 
 
@@ -17,3 +19,5 @@ ATENCION PLEASE!!!
 - You can comment on the unused frequencies in the carousel table.
 - Morse code generates harmonics, the more harmonics the higher the speed, so a suitable low-pass filter must be provided.
 - You can only operate this program if you have a valid amateur radio license in your territory.
+
+More information in spanish language : https://ea5jtt.blogspot.com/2025/10/cw-tx-beacon-esp32-si5351.html
