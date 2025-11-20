@@ -8,7 +8,7 @@ This program allows you to generate a CW (Morse) beacon in the amateur radio ban
 and a Si5351 (https://ea5jtt.blogspot.com/2025/09/si5351-primeros-pasos.html )with a power of 7 dB and 
 Adafruir  Si5351 library https://github.com/adafruit/Adafruit_Si5351_Library
 
-There's no need calibrate you si5351 
+You must calibrate you si5351 for each frecuency band
 
 This program is based on [https://github.com/ta2bgh/cw-beacon](https://github.com/joanpao/CW_beacon_ESP32)  and was created by EA5JTT Juanpa in 20251118
 
